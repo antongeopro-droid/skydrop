@@ -1,0 +1,31 @@
+# Unreal generated / local folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.VC.db
+*.opensdf
+*.suo
+*.sdf
+
+# packaged game (published as a GitHub Release, not in git)
+Build/
+*.zip
+
+# Epic template content: ships inside the packaged game, but isn't redistributed as source assets.
+# Re-add it with "Add Feature or Content Pack > Third Person" in the editor.
+Content/Characters/
+Content/LevelPrototyping/
+Content/Collections/
+Content/Developers/
+
+# raw model downloads and intermediate Blender output (the imported versions live in Content/)
+Tools/Downloads/
+Tools/Pieces/
+Tools/Final/
+Tools/FinalGuns/
+Tools/FinalPalm/
+Tools/Art/
+*.blend1
