@@ -241,7 +241,7 @@
     const owner = location.hostname.endsWith('.github.io') ? location.hostname.split('.')[0] : '';
     const repo = location.pathname.split('/').filter(Boolean)[0] || 'skydrop';
     const base = owner ? `https://github.com/${owner}/${repo}` : '#';
-    document.getElementById('dl').href = owner ? `${base}/releases/latest` : '#';
+    document.getElementById('dl').href = owner ? `${base}/releases/latest/download/Skydrop-Windows.zip` : '#';
     document.getElementById('srcLink').href = base;
   })();
 
